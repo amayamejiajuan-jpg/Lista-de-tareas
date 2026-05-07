@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+.agregar {
+    display: flex;
+}
+
+#inputTarea {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #1e90ff;
+
+}
+
+#btnAgregar {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+}
+
+#contenedor {
+    margin-top: 20px;
+    width: 350px;
+}
+
+#contenedor div {
+    background-color: #cfe8f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
