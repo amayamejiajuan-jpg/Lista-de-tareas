@@ -5,6 +5,8 @@ body {
     min-height: 100vh;
     flex-direction: column;
     display: flex;
+    background-color: rgb(167, 167, 247);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .agregar {
@@ -30,6 +32,9 @@ body {
 #contenedor {
     margin-top: 20px;
     width: 350px;
+    background-color: white;
+    height: 70vh;
+    overflow-y: auto;
 }
 
 #contenedor div {
@@ -47,4 +52,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+
+.eliminar {
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+.eliminar img {
+    height: 23px;
 }
